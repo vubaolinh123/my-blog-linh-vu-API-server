@@ -37,7 +37,7 @@ app.use("/api", commentRouter);
 //     })
 //     .catch(err => console.log(err))
 
-const mongoAtlasUri = "mongodb+srv://vubaolinh123:lienminh123@cluster0.7s0h5zi.mongodb.net/?retryWrites=true&w=majority";
+const mongoAtlasUri = "mongodb+srv://vubaolinh123:lienminh123@databasebloglv.sbvymx6.mongodb.net/?retryWrites=true&w=majority";
 
 try {
     // Connect to the MongoDB cluster
