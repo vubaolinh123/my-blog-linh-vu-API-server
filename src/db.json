@@ -1,0 +1,226 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "bgTop": "#ffffff",
+      "bgHeader": "#000"
+    }
+  ],
+  "users": [
+    {
+      "email": "Admin@gmail.com",
+      "password": "$2a$10$PLMglNiJf6wUxvbM.9a/yOaNl8nlqIb3bGeIJ9XuP95UoA7nNIitm",
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$m6sClqwNRsdP0G92U4Io9uNSpN5oHuRgi0AsogGkMgYPVqivD89mO",
+      "id": 2
+    },
+    {
+      "email": "123dmin@gmail.com",
+      "password": "$2a$10$oEJgm1FSbK/K9Zly9G6soehtBDMboOc7fNazBSX3b5cHOI2irkpo.",
+      "id": 3
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "$2a$10$z.jDOuYtQNwkzWWQvi9TIOOEvSqVdgCnS8HZMIGjKVZ7fSfgkRiZS",
+      "id": 4
+    },
+    {
+      "email": "anh@gmail.com",
+      "password": "$2a$10$aKKo9BOB.EQXad.AjxD1Ve.L5DAMRdaSbGWH2rwgAjmX8OA0Vq/zu",
+      "id": 5
+    }
+  ],
+  "projects": [
+    {
+      "name": "Căn hộ cao cấp nhìn ra sông quận 7 hello",
+      "price": "1",
+      "area": "1",
+      "address": "1",
+      "map_url": "1",
+      "shortInfo": "1",
+      "description": "1",
+      "typeId": 1,
+      "typical_projects": true,
+      "img": "http://res.cloudinary.com/anh13902/image/upload/v1660013891/ejnxvqgk7vsdbzzqb62g.webp",
+      "slug": "can-ho-cao-cap-nhin-ra-song-quan-7-hello",
+      "createAt": 1659963515267,
+      "updateAt": 1659963515267,
+      "id": 6
+    },
+    {
+      "name": "Product Test updateds",
+      "price": "123123",
+      "area": "11",
+      "address": "2121",
+      "map_url": "aaaa",
+      "shortInfo": "dấdas",
+      "description": "đâs",
+      "typeId": 2,
+      "typical_projects": false,
+      "img": "http://res.cloudinary.com/anh13902/image/upload/v1660310007/cvkep6slrflglvj2wpc8.webp",
+      "slug": "product-test-updateds",
+      "createAt": 1659965034091,
+      "updateAt": 1659965034091,
+      "id": 8
+    },
+    {
+      "name": "Nguyen Anh",
+      "price": "2343",
+      "area": "111",
+      "address": "111",
+      "map_url": "http://res.cloudinary.com/anh13902/image/upload/v1659953091/njecwgp8p6jxu1eorpxm.jpg",
+      "shortInfo": "11",
+      "description": "11",
+      "typeId": 1,
+      "typical_projects": true,
+      "img": "http://res.cloudinary.com/anh13902/image/upload/v1659981399/gxyohbor01fxfq6cscu2.jpg",
+      "slug": "nguyen-anh",
+      "createAt": 1659981399712,
+      "updateAt": 1659981399712,
+      "id": 9
+    },
+    {
+      "name": "abc",
+      "price": "2343",
+      "area": "111",
+      "address": "111",
+      "map_url": "http://res.cloudinary.com/anh13902/image/upload/v1659953091/njecwgp8p6jxu1eorpxm.jpg",
+      "shortInfo": "11",
+      "description": "11",
+      "typeId": 1,
+      "typical_projects": true,
+      "img": "http://res.cloudinary.com/anh13902/image/upload/v1660281172/ahxbv9bdrety1oht1qrp.jpg",
+      "slug": "abc",
+      "createAt": 1659981420903,
+      "updateAt": 1659981420903,
+      "id": 10
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Căn hộabc",
+      "slug": "can-hoabc"
+    },
+    {
+      "id": 2,
+      "name": "Chung cư",
+      "slug": "chung-cu"
+    },
+    {
+      "name": "Category blog 1 abc",
+      "slug": "category-blog-1-abc",
+      "createAt": 1660037046821,
+      "updateAt": 1660037046821,
+      "id": 3
+    },
+    {
+      "name": "aaaaa",
+      "slug": "aaaaa",
+      "createAt": 1660037100207,
+      "updateAt": 1660037100207,
+      "id": 4
+    },
+    {
+      "name": "aaaaa bc",
+      "slug": "aaaaa-bc",
+      "createAt": 1660037131917,
+      "updateAt": 1660037131917,
+      "id": 5
+    }
+  ],
+  "blogs": [
+    {
+      "name": "abc a",
+      "shortDescription": "aaa",
+      "description": "aaa",
+      "cateBlogId": 1,
+      "img": "http://res.cloudinary.com/anh13902/image/upload/v1659982390/ditjahmgccxtmqhw9wvh.webp",
+      "slug": "abc-a",
+      "createAt": 1659982390360,
+      "updateAt": 1659982390360,
+      "id": 2
+    },
+    {
+      "name": "test12344  update",
+      "shortDescription": "aaaxxx update",
+      "description": "aaaxxxxupdate",
+      "cateBlogId": 5,
+      "img": "http://res.cloudinary.com/anh13902/image/upload/v1660047655/xqwqk4ldmpbjjaromqdg.jpg",
+      "slug": "test12344-update",
+      "createAt": 1659982538917,
+      "updateAt": 1659982538917,
+      "id": 3
+    }
+  ],
+  "cateBlogs": [
+    {
+      "id": 1,
+      "name": "Category blog 1",
+      "slug": "category-blog-1"
+    },
+    {
+      "id": 2,
+      "name": "Category blog 2",
+      "slug": "category-blog-2"
+    },
+    {
+      "name": "Nguyen Anh",
+      "slug": "nguyen-anh",
+      "createAt": 1660047547313,
+      "updateAt": 1660047547313,
+      "id": 4
+    },
+    {
+      "name": "Product Test updated",
+      "slug": "product-test-updated",
+      "createAt": 1660047560128,
+      "updateAt": 1660047560128,
+      "id": 5
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "img": "http://res.cloudinary.com/anh13902/image/upload/v1660051549/tcbk5dgwvwct4kqw0fgx.jpg",
+      "status": true
+    }
+  ],
+  "menus": [
+    {
+      "name": "Giới thiệu",
+      "path": "/gioi-thieu",
+      "slug": "gioi-thieu",
+      "createAt": 1660055024799,
+      "updateAt": 1660055024799,
+      "id": 2
+    },
+    {
+      "name": "Trang chủ",
+      "path": "/gioi-thieu",
+      "slug": "trang-chu",
+      "createAt": 1660055042660,
+      "updateAt": 1660055042660,
+      "id": 3
+    },
+    {
+      "name": "Nguyen Anh test",
+      "path": "/nguyen-anh",
+      "slug": "nguyen-anh-test",
+      "createAt": 1660055554708,
+      "updateAt": 1660055554708,
+      "id": 4
+    },
+    {
+      "name": "abc defg",
+      "path": "/abc-defg",
+      "slug": "abc-defg",
+      "createAt": 1660056510703,
+      "updateAt": 1660056510703,
+      "id": 5
+    }
+  ]
+}
