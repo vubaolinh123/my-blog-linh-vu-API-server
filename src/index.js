@@ -14,7 +14,7 @@ const app = express();
 
 // middleware
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://lv-blog.vercel.app/',
     methods: ['POST', 'PUT', 'DELETE','GET']
 }));
 
