@@ -17,7 +17,6 @@ const app = express();
 // middleware
 app.use(cors({
     origin: 'https://lv-blog.vercel.app',
-    methods: ['POST', 'PUT', 'DELETE','GET']
 }));
 
 app.use(morgan("tiny"))
