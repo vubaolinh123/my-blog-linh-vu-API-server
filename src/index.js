@@ -8,6 +8,8 @@ import categoryBlogRouter from "./routers/categoryBlog"
 import tagRouter from "./routers/tag"
 import colorRouter from "./routers/color"
 import commentRouter from "./routers/comment"
+import bodyParser from "body-parser";
+
 
 
 const app = express();
@@ -20,6 +22,9 @@ app.use(cors({
 
 app.use(morgan("tiny"))
 app.use(express.json());
+app.use(bodyParser.json({ limit: '10mb' }));
+app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
+
 
 // Router
 app.use("/api", authRouter);

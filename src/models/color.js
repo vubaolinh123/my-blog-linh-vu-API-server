@@ -13,10 +13,6 @@ const colorSchema = new Schema({
         type: String, 
         required: true,
     },
-    bgHeader: { 
-        type: String, 
-        required: true,
-    },
     textLogo: { 
         type: String, 
         required: true,
@@ -46,10 +42,6 @@ const colorSchema = new Schema({
         required: true,
     },
     iconPen: { 
-        type: String, 
-        required: true,
-    },
-    bgTop: { 
         type: String, 
         required: true,
     },
