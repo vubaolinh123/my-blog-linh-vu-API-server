@@ -9,12 +9,12 @@ import tagRouter from "./routers/tag"
 import colorRouter from "./routers/color"
 import commentRouter from "./routers/comment"
 import socialRouter from "./routers/social"
-// https://blogsminecraft.com
+// https://linkcualinh.com
 
 const app = express();
 
 app.use(cors({
-    origin: 'https://linkcualinh.com',
+    origin: 'https://blog.linkcualinh.com',
     methods: ['POST', 'PUT', 'DELETE','GET']
 }));
 
