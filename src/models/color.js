@@ -13,7 +13,19 @@ const colorSchema = new Schema({
         type: String, 
         required: true,
     },
+    bgHeader: { 
+        type: String, 
+        required: true,
+    },
     textLogo: { 
+        type: String, 
+        required: true,
+    },
+    sizeLogoHeader: { 
+        type: String, 
+        required: true,
+    },
+    sizeLogoFooter: { 
         type: String, 
         required: true,
     },
@@ -42,6 +54,10 @@ const colorSchema = new Schema({
         required: true,
     },
     iconPen: { 
+        type: String, 
+        required: true,
+    },
+    bgTop: { 
         type: String, 
         required: true,
     },
@@ -85,6 +101,14 @@ const colorSchema = new Schema({
         type: String, 
         required: true,
     },
+    bgFooterBottom: { 
+        type: String, 
+        required: true,
+    },
+    textFooterBottom: { 
+        type: String, 
+        required: true,
+    },
     url: {
         type: String,
         required: true,
@@ -95,20 +119,17 @@ const colorSchema = new Schema({
     },
     intro: {
         type: String,
-        required: true,
     },
     subTextLogo: {
         type: String,
-        required: true,
     },
     urlFb: {
         type: String,
-        required: true,
     },
     urlYt: {
         type: String,
-        required: true,
     }
+    
 }, { timestamps: true });
 
 const color = mongoose.model('Color', colorSchema);

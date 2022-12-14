@@ -59,3 +59,31 @@ export const login = async (req, res, next) => {
         res.status(400).json({ message: "Đăng nhập thất bại" })
     }
 }
+
+export const changPassword = async (req, res) => {
+    const {name, password, newPassword} = req.body;
+    try {
+        const user = await User.findOne({name}).exec();
+        if(!user){
+            return res.status(400).json({
+                message: "Không tìm thấy tài khoản này"
+            }) 
+        }
+        if (!user.authenticate(password)) {
+            return res.status(400).json({
+                message: "Mật khẩu cũ không chính xác"
+            })
+        }
+        const newUser = await User.findOneAndUpdate({name}, {password: user.encryptPassword(newPassword)}, {new: true})
+        return res.json({
+            user: newUser
+        })
+        
+    } catch (error) {
+        console.log(error);
+        res.status(400).json(
+            { message: "Đổi mật khẩu thất bại" }
+        )                
+    }
+}
+
