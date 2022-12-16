@@ -2,6 +2,7 @@ import express from "express"
 import cors from 'cors';
 import morgan from "morgan"
 import mongoose from "mongoose"
+import dotenv from "dotenv"
 import authRouter from "./routers/auth"
 import blogRouter from "./routers/blog"
 import categoryBlogRouter from "./routers/categoryBlog"
@@ -10,8 +11,10 @@ import colorRouter from "./routers/color"
 import commentRouter from "./routers/comment"
 import socialRouter from "./routers/social"
 // https://linkcualinh.com
+dotenv.config()
 
 const app = express();
+
 
 app.use(cors({
     origin: 'https://blog.linkcualinh.com',
@@ -22,6 +25,7 @@ app.use(cors({
 app.use(morgan("tiny"))
 app.use(express.json({limit: '10mb'}));
 app.use(express.urlencoded({limit: '10mb'}));
+
 
 // Router
 app.use("/api", authRouter);
@@ -40,7 +44,8 @@ app.use("/api", socialRouter);
 //     })
 //     .catch(err => console.log(err))
 // mongoexport --uri mongodb+srv://vubaolinh123@atlas-cluster-url.mongodb.net/test --collection colors --out ./
-const mongoAtlasUri = "mongodb+srv://vubaolinh123:lienminh123@databasebloglv.sbvymx6.mongodb.net/?retryWrites=true&w=majority";
+
+const mongoAtlasUri = process.env.MONGO_ATLAT_URL;
 
 try {
     // Connect to the MongoDB cluster
