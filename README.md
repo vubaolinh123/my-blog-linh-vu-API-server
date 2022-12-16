@@ -18,7 +18,7 @@
 ```bash
 npm install
 ```
-- Create .env.local
+- Create file .env
 ```bash
 MONGO_ATLAT_URL= "Link mongoDBAtlat to connect your database"
 ```
