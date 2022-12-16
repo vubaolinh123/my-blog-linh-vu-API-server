@@ -1,5 +1,3 @@
-## This is my API for Blog
-
 ## Link Source Client: https://github.com/vubaolinh123/My-Blog-Linh-Vu
 ## Link API DEMO: https://blog-api.linkcualinh.com/
 
