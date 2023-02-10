@@ -54,7 +54,5 @@ blogSchema.index({ name: 'text' });
 
 const Blogs = mongoose.model('Blog', blogSchema);
 
-Blogs.createIndexes({ name: 'text' })
-
 
 export default Blogs;
